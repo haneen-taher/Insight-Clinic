@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./image/icons8-psychology-16.png"
+    />
+    <meta
+      name="description"
+      content="Insight Psychological Clinic, we are committed to helping individuals, couples, and families overcome psychological challenges and achieve optimal mental health. Our team of experienced mental health professionals are dedicated to providing personalized and evidence-based treatments to meet the unique needs of each client."
+    />
+    <meta
+      name="keywords"
+      content="mental health, mental patient , psychology"
+    />
+    <title>About</title>
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container flex align-center">
+        <a href="" class="logo">In<span>s</span>ight</a>
+
+        <nav>
+          <ul class="flex">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div id="menuToggle">
+          <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+          <input type="checkbox" />
+
+          <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+          <ul id="menu">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./about.html"><li>About</li></a>
+            <a href="./services.html"><li>Services</li></a>
+            <a href="./contactus.html"><li>Contact Us</li></a>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="container flex flex-wrap about">
+      <h1 class="animate__animated animate__flipInX animate__delay-1s">
+        About
+      </h1>
+
+      <br />
+      <img
+        src="https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        alt=""
+      />
+
+      <article>
+        Insight Psychological Clinic, we are committed to helping individuals,
+        couples, and families overcome psychological challenges and achieve
+        optimal mental health. Our team of experienced mental health
+        professionals are dedicated to providing personalized and evidence-based
+        treatments to meet the unique needs of each client.
+      </article>
+
+      <article class="art2">
+        At Insight, we believe that everyone has the capacity for growth and
+        change and that therapy can provide the tools and support needed to
+        achieve personal goals. We are committed to creating a warm and
+        compassionate environment where clients feel safe to explore their
+        thoughts and feelings. Our therapists work collaboratively with clients
+        to identify their strengths and challenges and to develop personalized
+        treatment plans that are tailored to their specific needs.
+      </article>
+
+      <img
+        src="https://images.pexels.com/photos/4098151/pexels-photo-4098151.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt=""
+      />
+    </main>
+    
+    <!-- cards  -->
+    <h1 class="OurTeam-h1">Our Team</h1>
+    <div class="team container">
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/4100672/pexels-photo-4100672.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="Ahmad"
+        />
+        <div class="content">
+          <h2>Dr.Ahmad</h2>
+          <h3>psychologist</h3>
+          <p>
+            a compassionate and skilled psychologist with a doctoral degree in
+            psychology.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/4098273/pexels-photo-4098273.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="Sara"
+        />
+        <div class="content">
+          <h2>Phy.Sara</h2>
+          <h3>psychologist</h3>
+          <p>
+            experienced psychologist who is committed to helping individuals
+            improve their mental well-being.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/6712647/pexels-photo-6712647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Sami"
+        />
+        <div class="content">
+          <h2>Phy.Sami</h2>
+          <h3>psychologist</h3>
+          <p>
+            An Empathetic psychologist guiding individuals on their mental
+            health journey with care and expertise.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container flex">
+        <p>All copyright reserved to Insight Team &copy;</p>
+        <ul class="flex">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
